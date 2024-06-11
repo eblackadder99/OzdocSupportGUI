@@ -1,0 +1,14 @@
+﻿Section,Method,Command,Arguments,Name,Description
+Exchange,powershell_file,AssignMailboxAccess.ps1,,Delegate Mailbox Access,Give user/s access to a mailbox
+Exchange,powershell_file,RemoveMailboxAccess.ps1,,Remove Mailbox Access,Remove user/s access to a mailbox
+Exchange,powershell_file,AssignCalendarAccess.ps1,,Delegate Calendar Access,Give user/s access to a calendar
+Exchange,powershell_file,RemoveCalendarAccess.ps1,,Remove Calendar Access,Remove user/s access to a calendar
+Exchange,powershell_file,CreateSharedMailbox.ps1,,Create Shared Mailbox,Create a shared mailbox
+Reporting,powershell_file,GetMailboxAccess.ps1,,Check Mailbox Access,Runs a report to check which users have access to what mailboxes
+Reporting,powershell_file,GetMailboxSize.ps1,,Check Mailbox Size,Runs a report to check the size of all mailboxes
+Reporting,powershell_file,CheckLicensedUsers.ps1,,Check Licensed Users,Runs a report to check all users who are actively licensed
+Reporting,powershell_file,GetSpecificLicense.ps1,,Check Specific License,Runs a report to check who has been assigned a specific license
+Install,powershell_file,InstallExchangeOnlineManagement.ps1,,Install Exchange Online PS Module,Installs the v3 Exchange Online Management Powershell module
+Install,powershell_file,InstallMSOnline.ps1,,Install MSOnline PS Module,Installs the MSOnline Powershell module
+Install,powershell_file,InstallPartnerCenter.ps1,,Install Partner Center PS Module,Installs the 365 Partner Center PS module
+Install,powershell_file,InstallRSAT.ps1,,Install RSAT Module,Install the RSAT module and all related tools

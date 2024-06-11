@@ -1,0 +1,9 @@
+﻿Section,Method,Command,Arguments,Name,Description
+Network,powershell_file,ListNetworkShares.ps1,,List Network Shares,Lists currently connected network shares
+Network,powershell_file,RestartAllNetworkAdaptors.ps1,,Restart All Network Adaptors,Restarts all existing network adaptors
+Network,powershell_file,RestartNetworkAdaptor.ps1,,Restart Specific Network Adaptor,Restarts specific network adaptor
+Network,powershell_file,RenewIP.ps1,,Renew Device IP,Renews the IP for all NICs
+Network,powershell_file,ScanOpenPorts.ps1,,Scan Open Ports,Scans network for specified port
+Network,powershell_file,GetDNSRecords.ps1,,Get DNS Records,Grabs DNS records for a specified website
+Printers,powershell_file,RemovePrinterJobs&RestartSpooler.ps1,,Remove Print Jobs and Restart Spooler,Removes all existing print jobs and restarts the print spooler service
+Software,powershell_file,ListInstalledSoftware.ps1,,List Installed Software,Lists all currently installed software on device
